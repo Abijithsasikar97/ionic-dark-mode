@@ -1,12 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Dark Mode
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-card class="animate-left">
+    <ion-item lines="none">
+      <ion-icon slot="start" name="moon"></ion-icon>
+      <ion-label>Dark mode</ion-label>
+      <ion-toggle [(ngModel)]="darkMode" (ionChange)="updateDarkMode()"></ion-toggle>
+    </ion-item>
+  </ion-card>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
