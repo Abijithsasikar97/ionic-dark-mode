@@ -8,7 +8,7 @@ HOW THIS WORKS🤔?
 It works by changing the applications body class, if you guys inspect and see while toggling button you can able to see bellow thing in tag for dark mode👇
 
 
-* class="dark" *
+** class="dark" **
 
 When app or page refreshes its automatically change from dark to light
 We can use localstorage to handle this, implementation👇
