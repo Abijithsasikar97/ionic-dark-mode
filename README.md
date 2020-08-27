@@ -27,7 +27,7 @@ Then want make our implementation to stay the same mode after app refresh or pag
 Make this changes in app.component.ts
 >  ngOnInit(){
 
->    let dark = localStorage.getItem('Dark');
+>    let dark = JSON.parse(localStorage.getItem('Dark'));
 
 >    if(dark) {
 
